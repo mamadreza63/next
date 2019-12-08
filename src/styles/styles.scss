@@ -1,5 +1,25 @@
+// setting
 @import './base/settings';
+
+//base
 @import './base/base';
+
+//fonts
 @import './base/fonts';
 
+// ie fixes
+@import "./base/ie-fix";
+
+// If you want to override variables do it here
+@import "./base/variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui.scss";
+
+// Temp fix for reactstrap
+@import '~@coreui/coreui/scss/_dropdown-menu-right.scss';
+
+
+
+//components
 @import './components/login-page';

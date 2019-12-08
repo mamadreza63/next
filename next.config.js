@@ -7,7 +7,7 @@ module.exports = withCSS(withSass({
            use: {
                loader: 'url-loader',
                options: {
-                   limit: 100000
+                   limit: 8192
                }
            }
        });

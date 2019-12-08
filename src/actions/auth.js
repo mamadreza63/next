@@ -20,6 +20,7 @@ export const startLogin = ({username, password}) => (dispatch, getState) =>  {
         //     password
         // }
     }).then(response => {
+            console.log(response);
             dispatch(Login(username));
     });
 }
